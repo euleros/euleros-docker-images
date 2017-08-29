@@ -1,6 +1,6 @@
 
 FROM scratch
-ADD EulerOS-2.2.tar.gz /
+ADD EulerOS-2.2.tar.xz /
 
 
 LABEL name="EulerOS-2.2 Base Image" \
