@@ -27,3 +27,6 @@ By subscribing to this product you agree to terms and conditions outlined in the
 
 ## Community Support
 [zh_CN](http://developer.huawei.com/ict/forum/forum.php?mod=forumdisplay&fid=400257&page=)
+
+## Committer and Maintainer Guideline
+Every committer and maintainer should read this [guideline](CONTRIBUTING.md) before contributing to this repo.
