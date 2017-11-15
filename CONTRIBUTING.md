@@ -1,22 +1,15 @@
 ## Introduction
 
-Dear maintainer. Thank you for investing the time and energy to help
-make this project as useful as possible. Maintaining a project is difficult,
+Dear committer and maintainer. Thank you for investing the time and energy to help
+make this project as useful as possible. Contributing or maintaining a project is difficult,
 sometimes unrewarding work.  Sure, you will get to contribute cool
 features to the project. But most of your time will be spent reviewing,
-cleaning up, documenting, answering questions, justifying design
+cleaning up, documenting, asking/answering questions, justifying design
 decisions - while everyone has all the fun! But remember - the quality
-of the maintainers work is what distinguishes the good projects from the
+of the contributing work is what distinguishes the good projects from the
 great.  So please be proud of your work, even the unglamorous parts,
 and encourage a culture of appreciation and respect for *every* aspect
 of improving the project - not just the hot new features.
-
-This document is a manual for maintainers old and new. It explains what
-is expected of maintainers, how they should work, and what tools are
-available to them.
-
-This is a living document - if you see something out of date or missing,
-speak up!
 
 ## What are a maintainer's responsibility?
 
@@ -24,6 +17,9 @@ It is every maintainer's responsibility to:
 
 * Add a major release when there is a new EulerOS distribution.
 * Add a minor release when there is any update, either CVE fixes or bug fixes.
+
+## What could a committer and maintainer to?
+
 * Make a stronger CI system.
 * Make a better document.
 * Anything to make a solid base image.
@@ -65,7 +61,7 @@ Unlike other projects, `euleros-docker-images` is more like a product release pr
 It is not possible to evaluate anyone by his/her contributions to this project.
 So we will discuss it by open a PR.
 
-## What is expected of maintainers?
+## What is expected of committers and maintainers?
 
 * Be cautious: Follow all the docker official repository requests and 
 provide good documents.
