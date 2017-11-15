@@ -1,0 +1,6 @@
+sudo: true
+services:
+  - docker
+
+script:
+  - sh verifyImage.sh
