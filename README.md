@@ -15,6 +15,17 @@ Linux/Unix, Other V2.0
 ## License
 EulerOS is released under the GPLv2. See the ```LICENSE``` file in this repository for more information.
 
+## Release roadmap
+EulerOS Docker image will release a new version according to its associated [ISO](https://developer.huawei.com/ict/cn/rescenter/CMDA_FIELD_EULER_OS?developlan=Other). Generally Docker image releases a new version every three months, one month after ISO releasing.
+
+One can use the following steps to generate Docker images from ISO.
+* download iso and mount it to `/mnt/iso`
+* `export ISO_PATH=/mnt/iso`
+*  download [scripts](scripts) into a proper dir, such as `~/images_scripts`
+*  `cd ~/images_scripts && export RPM_ROOT=$(pwd)/rootfs`
+*  export OS_VERSION such as `export OS_VERSION=2.3`
+*  `bash generate.sh`
+
 ## Support Details
 Huawei offers 8x5 Comprehensive Support
 400 8828 000
