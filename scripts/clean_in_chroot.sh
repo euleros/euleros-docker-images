@@ -10,7 +10,7 @@ rm /root/.rpmdb -rf
 # set up yum.repo
 repo="[base]\n
 name=EulerOS-2.0SP3 base\n
-baseurl=http://developer.huawei.com/ict/site-euleros/euleros/repo/yum/$OS_VERSION/os/$machine/\n
+baseurl=http://developer.huawei.com/ict/site-euleros/euleros/repo/yum/$OS_VERSION/os/\$basearch/\n
 enabled=1\n
 gpgcheck=1\n
 gpgkey=http://developer.huawei.com/ict/site-euleros/euleros/repo/yum/$OS_VERSION/os/RPM-GPG-KEY-EulerOS" 
