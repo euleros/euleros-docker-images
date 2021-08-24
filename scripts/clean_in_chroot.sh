@@ -1,5 +1,6 @@
 #!/bin/bash
-
+ARCH="$1"
+OS_VERSION=$2
 
 rm /var/cache/yum/* -rf
 rm /var/cache/yum/.* -rf
@@ -8,12 +9,8 @@ rm /var/lib/yum/history/* -rf
 rm /root/.rpmdb -rf
 
 # set up yum.repo
-repo="[base]\n
-name=EulerOS-2.0SP3 base\n
-baseurl=http://developer.huawei.com/ict/site-euleros/euleros/repo/yum/$OS_VERSION/os/$machine/\n
-enabled=1\n
-gpgcheck=1\n
-gpgkey=http://developer.huawei.com/ict/site-euleros/euleros/repo/yum/$OS_VERSION/os/RPM-GPG-KEY-EulerOS" 
+# https://mirrors.huaweicloud.com/euler/2.5/os/x86_64/
+repo="[base]\nname=EulerOS base\nbaseurl=https://mirrors.huaweicloud.com/euler/$OS_VERSION/os/${ARCH}/\nenabled=1\ngpgcheck=1\ngpgkey=https://mirrors.huaweicloud.com/euler/$OS_VERSION/os/RPM-GPG-KEY-EulerOS"
 
 echo -e $repo > /etc/yum.repos.d/euleros.repo
 
